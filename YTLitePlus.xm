@@ -1,3 +1,9 @@
+@import Foundation;
+@import UIKit;
+@import AVFoundation;
+#include <string.h>
+#import <objc/runtime.h>
+#import <dlfcn.h>
 #import "YTLitePlus.h"
 
 NSBundle *YTLitePlusBundle() {
@@ -1326,3 +1332,4 @@ NSInteger pageStyle = 0;
         [[NSUserDefaults standardUserDefaults] setBool:YES forKey:@"playerGesturesHapticFeedback_enabled"]; 
     }
 }
+
